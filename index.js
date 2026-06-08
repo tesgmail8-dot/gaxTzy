@@ -307,10 +307,10 @@ function ensureDatabaseFolder() {
 }
 
 // ~ Raw Github & Pasword ~ \\
-const PANEL_PASSWORD = "RAMJI18";
+const PANEL_PASSWORD = "GALAXY-13";
 
 const GITHUB_TOKEN_LIST_URL =
-  "https://raw.githubusercontent.com/cannih/ram/refs/heads/main/token.json";
+  "https://raw.githubusercontent.com/tesgmail8-dot/gaxTzy/main/token.json";
 
 function askPassword() {
   return new Promise((resolve) => {
