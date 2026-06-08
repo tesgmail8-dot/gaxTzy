@@ -1169,7 +1169,7 @@ bot.action("xmarga", async (ctx) => {
 bot.action("xupdate", checkOwner, async (ctx) => {
   await ctx.answerCbQuery();
   
-  const repoRaw = "https://raw.githubusercontent.com/tesgmail8-dot/gaxTzy/main/index.js";
+  const repoRaw = "https://raw.githubusercontent.com/tesgmail8-dot/gaxTzy/main/gax.js";
 
   const waitMsg = await ctx.reply("⏳ Sedang mengecek update...");
 
@@ -1193,7 +1193,7 @@ bot.action("xupdate", checkOwner, async (ctx) => {
 
 // Command update juga bisa lewat text
 bot.command("update", checkOwner, async (ctx) => {
-  const repoRaw = "https://raw.githubusercontent.com/tesgmail8-dot/gaxTzy/main/index.js";
+  const repoRaw = "https://raw.githubusercontent.com/tesgmail8-dot/gaxTzy/main/gax.js";
 
   const waitMsg = await ctx.reply("⏳ Sedang mengecek update...");
 
